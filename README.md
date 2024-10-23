@@ -1,6 +1,6 @@
 ## SCOPO DEL PROGETTO
 
-Il progetto "Pignatta Partita Pallavolo" è un'applicazione che permette di simulare una partita di pallavolo in cui due giocatori, rappresentati da due diversi thread, si passano la palla. L'obiettivo principale, inoltre, è quello di implementare l'uso delle classi `Thread` e `Runnable` in Java e di comprendere la complessa gestione dei vari thread, anche in base alla loro priorità.
+Il progetto "Partita Pallavolo" è un'applicazione che permette di simulare una partita di pallavolo in cui due giocatori, rappresentati da due diversi thread, si passano la palla. L'obiettivo principale, inoltre, è quello di implementare l'uso delle classi `Thread` e `Runnable` in Java e di comprendere la complessa gestione dei vari thread, anche in base alla loro priorità.
 
 ## METODI E ATTRIBUTI DELLA CLASSE THREAD UTILIZZATI
 ### Metodi Utilizzati
