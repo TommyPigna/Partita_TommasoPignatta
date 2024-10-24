@@ -16,6 +16,18 @@ Il progetto "Pignatta Partita Pallavolo" è un'applicazione che permette di simu
   - **DESCRIZIONE**: Questo metodo statico è usato per ottenere il thread attualmente in esecuzione, in modo da poter chiamare metodi su di esso, come `yield()`.
   - **USO**: `Thread.currentThread()`
 
+- **`getPriority()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere la priorità del thread.
+  - **USO**: `t1.getPriority()/t2.getPriority()`
+
+- **`getName()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere il nome del thread.
+  - **USO**: `t1.getName()/t2.getName()`
+
+- **`getId()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere l'identificativo del thread.
+  - **USO**: `t1.getId()/t2.getId()`
+
 ### Attributi Utilizzati
 - **`MAX_PRIORITY`**
   - **DESCRIZIONE**: Questo campo statico è utilizzato per impostare la priorità massima del thread.
