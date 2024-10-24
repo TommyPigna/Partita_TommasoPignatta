@@ -1,6 +1,6 @@
 ## SCOPO DEL PROGETTO
 
-Il progetto "Partita Pallavolo" è un'applicazione che permette di simulare una partita di pallavolo in cui due giocatori, rappresentati da due diversi thread, si passano la palla. L'obiettivo principale, inoltre, è quello di implementare l'uso delle classi `Thread` e `Runnable` in Java e di comprendere la complessa gestione dei vari thread, anche in base alla loro priorità.
+Il progetto "Pignatta Partita Pallavolo" è un'applicazione che permette di simulare una partita di pallavolo in cui due giocatori, rappresentati da due diversi thread, si passano la palla. L'obiettivo principale, inoltre, è quello di implementare l'uso delle classi `Thread` e `Runnable` in Java e di comprendere la complessa gestione dei vari thread, anche in base alla loro priorità.
 
 ## METODI E ATTRIBUTI DELLA CLASSE THREAD UTILIZZATI
 ### Metodi Utilizzati
@@ -15,6 +15,18 @@ Il progetto "Partita Pallavolo" è un'applicazione che permette di simulare una 
 - **`currentThread()`**
   - **DESCRIZIONE**: Questo metodo statico è usato per ottenere il thread attualmente in esecuzione, in modo da poter chiamare metodi su di esso, come `yield()`.
   - **USO**: `Thread.currentThread()`
+
+- **`getPriority()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere la priorità del thread.
+  - **USO**: `t1.getPriority()/t2.getPriority()`
+
+- **`getName()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere il nome del thread.
+  - **USO**: `t1.getName()/t2.getName()`
+
+- **`getId()`**
+  - **DESCRIZIONE**: Questo metodo viene utilizzato per ottenere l'identificativo del thread.
+  - **USO**: `t1.getId()/t2.getId()`
 
 ### Attributi Utilizzati
 - **`MAX_PRIORITY`**
@@ -47,4 +59,4 @@ Il progetto "Partita Pallavolo" è un'applicazione che permette di simulare una 
    - Ad ogni iterazione del ciclo, il numero di passaggi, ovvero `numPassaggi`, viene incrementato.
 
 6. **Utilizzo di `yield()`**:
-   - Il metodo `yield()` è chiamato per permette
+   - Il metodo `yield()` è chiamato per permettere all'altro t
